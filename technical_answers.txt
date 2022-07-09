@@ -1,0 +1,42 @@
+What are the supported data types in Python?
+the most important data types are:
+String:	str
+Numeric:	int, float, complex
+Sequence:	list, tuple, range
+Mapping:	dict
+Set Types:	set, frozenset
+Boolean:	bool
+Binary:	bytes, bytearray, memoryview
+None Type:	NoneType
+
+
+What is the difference between tuples and lists in Python?
+That the tuples are inmutable and fasthers that the lists.
+
+
+What are Python decorators?
+That are a function that take as a parameter a function to do a kind of process before or after call the function pass. Is a design pattern.
+
+What are generators in Python?
+Is a function that use the comand yield() and you can stop the ejecution and call the continues using next() to continues the ejecution 
+
+What are shallow and deep copy operations?
+The most notable difference between shallow and deep copies appars composite objects (objects that contain other objects, such as lists or class instances):
+Shallow copy constructs a new composite object, then (if possible) inserts a reference to the original object. 
+A deep copy creates a new composite object, then recursively inserts a copy of the object found in the original.
+
+
+Explain Dependency Injection?
+Is when you use a class inside other class but you don’t have full access to the external class, only do use of the external class.
+
+
+Explain how you can make a Python Script executable on Unix?
+
+Add at the start of the Python file #!/usr/bin/ python3
+
+add permissions of execussion using chmod 
+chmod 755 script.py
+
+And exec using
+./script.py
+
